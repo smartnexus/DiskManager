@@ -11,9 +11,9 @@ public class Main {
     public static List<DiskDevice> copying = new ArrayList<>();
 
     public static void main(String[] args) {
-        if(authorize()) {
+
             start();
-        }
+
     }
 
     public static boolean authorize() {
